@@ -4,51 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer sitio web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <header>
-        <h1>LOS GATOS</h1>
-        <hr>
-        <nav class="menu">
-            <a href="adopciones.html">Adopciones</a>
-            <a href="contacto.html">Contacto</a>    
-        </nav>
+    <header class="cabeza">
+        <div id="titulo">
+            <img class="logo2" src="imagenes/60instagramhighlighticons63_112140.png" alt="">
+            <h1 class="title" id="Principal">LOS GATOS</h1>
+        </div>
+        <div id="titulo2">
+            <nav class="menu">
+                <a href="adopciones.html">Adopciones</a>
+                <a href="contacto.html">Contacto</a>    
+            </nav>
+        </div>
+       
     </header>
     
     <main>
-        <h2>Los gatos ¿Las mejores mascotas?</h2>
-        <hr>
+        <h2 class="title">Los gatos ¿Las mejores mascotas?</h2>
+        
         <section>
             <article>
-                <h3>Mas que mascotas</h3>
-                <img src="imagenes/gato2.webp" alt="gato2" width="200">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sed nobis nesciunt culpa rerum, minima eos saepe a officiis architecto quisquam laboriosam maiores qui voluptatum. Saepe, quisquam veritatis eveniet repellat cum minima provident atque voluptatem iusto aperiam magnam nostrum vel ducimus facere esse odio fugiat assumenda animi dolor? Consequuntur suscipit quas error, corporis assumenda odit voluptatem rem, amet velit aut unde est dicta placeat quod libero molestiae consectetur ipsa. Ratione corporis cumque odio dicta? Commodi sed aperiam repudiandae, vero nobis facilis magnam aliquid in culpa rem maxime dicta, quam porro! Asperiores ad alias porro deleniti minus accusamus nesciunt fugiat impedit?</p>
-                <div>
-                    <ol>
-                        <li>Mestizo</li>
-                        <li>Persa</li>
-                        <li>Siames</li>
-                        <li>Ruso azul</li>
-                    </ol>
+                <div class="seccion2">
+                    <div class="sec2Izquierda">
+                        <img src="imagenes/gato2.webp" alt="gato2"  class="logo">
+                    </div>
+                    <div class="sec2Derecha">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sed nobis nesciunt culpa rerum, minima eos saepe a officiis architecto quisquam laboriosam maiores qui voluptatum. Saepe, quisquam veritatis eveniet repellat cum minima provident atque voluptatem iusto aperiam magnam nostrum vel ducimus facere esse odio fugiat assumenda animi dolor? Consequuntur suscipit quas error, corporis assumenda odit voluptatem rem, amet velit aut unde est dicta placeat quod libero molestiae consectetur ipsa. Ratione corporis cumque odio dicta? Commodi sed aperiam repudiandae, vero nobis facilis magnam aliquid in culpa rem maxime dicta, quam porro! Asperiores ad alias porro deleniti minus accusamus nesciunt fugiat impedit?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem dolor mollitia amet assumenda quibusdam, quas, itaque expedita ipsum eos blanditiis nemo? Quasi assumenda sint voluptatibus possimus earum optio, explicabo, dolore officiis cumque omnis at esse a tempore eum facilis soluta similique? Necessitatibus minus omnis ipsum deleniti alias doloribus aliquid dicta!</p>
+                        <div class="listacontenedor2">
+                            <ol class="listaSec2" >
+                                <li>Mestizo</li>
+                                <li>Persa</li>
+                                <li>Siames</li>
+                                <li>Ruso azul</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <hr>
                 </div>
-                <hr>
-                
             </article>
+
             <article>
-                <h3>Características de los gatos</h3>
-                <div>    
-                    <p>Los gatos llevan junto al hombre miles de años, adaptándose a nuestra forma de vida y conviviendo con nosotros con el fin de recibir los cuidados necesarios. A diferencia de otros grandes felinos, estos, dado su tamaño, empezaron a empatizar con los humanos debido a que nuestros ancestros lo tenían como parte importante de su sociedad, llegando incluso, en época del Antiguo Egipto, a considerarse antiguos dioses que se habían transformado en estos animales astutos y solitarios.</p>
-                    <img src="imagenes/gato3.webp" alt="gato3" width="500" height="300">
-                    <br>
-                    <a href="https://www.anipedia.net/gatos/#Caracteristicas_de_los_gatos">Sus caracteristicas</a>
+                <h2 class="title">Características de los gatos</h2>
+                <div class="seccion3">
+                    
+                    <div class="sec3Derecha">
+                       <p>Los gatos llevan junto al hombre miles de años, adaptándose a nuestra forma de vida y conviviendo con nosotros con el fin de recibir los cuidados necesarios. A diferencia de otros grandes felinos, estos, dado su tamaño, empezaron a empatizar con los humanos debido a que nuestros ancestros lo tenían como parte importante de su sociedad, llegando incluso, en época del Antiguo Egipto, a considerarse antiguos dioses que se habían transformado en estos animales astutos y solitarios.</p>
+                       <a id="referencia" href="https://www.anipedia.net/gatos/#Caracteristicas_de_los_gatos">Sus caracteristicas</a>
+                
+                    </div>
+                    <div class="sec3Izquierda">     
+                        <img src="imagenes/gato3.webp" alt="gato3"  class="logo">
+                    </div>
+
                 </div>
 
             </article>
-
         </section>
-    </main>
-    <footer>
 
+    </main>
+    <footer class="footer" >
+        <div class="footer-content">
+            <p>&copy; Hecho con amor por Nikole Carrasquel</p>
+            <ul class="social-media">
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>

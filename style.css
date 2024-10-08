@@ -1,0 +1,258 @@
+body{
+    background-color: rgb(239, 249, 249);
+    color: rgb(43, 42, 42);
+}
+
+.title{
+    margin-top: 10px;
+    font-size: 2em;
+    color: rgb(41, 39, 39);
+    text-align: center;
+}
+#Principal{
+    font-size: 3em;
+    color: rgba(226, 226, 227, 0.995);
+}
+
+.logo{
+    width: 200px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: rgba(40, 45, 198, 0.638);
+}
+.menu a:hover{
+    color: rgb(207, 171, 211);
+}
+.cards{
+    border: 1px solid black;
+    width: fit-content;
+    padding: 0px 1em 0px 1em;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: rgba(40, 45, 198, 0.638);
+}
+
+.cabeza{
+    display: flex;
+    background-color: rgb(54, 59, 125);
+}
+
+#titulo{
+    width: 70vw;
+    padding: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#titulo2{
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3em;
+}
+.menu{
+    margin: auto;
+
+}
+.menu a{
+    margin-right: 30px;
+    color: rgba(237, 237, 244, 0.911);
+}
+
+
+.logo2{
+    width: 70px;
+    padding: 3px;
+    margin-right: 10px;
+}
+#cards-container{
+    width:  85vw;
+    margin: auto;
+    margin-top: 1,5px;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+}
+
+/*dividir seccion 2 del inicio*/
+.seccion2 {
+    width: 80%;
+    display: flex;
+    justify-content: center; 
+}
+
+.sec2Izquierda {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 20px;
+    padding: 3em;
+}
+
+
+.sec2Derecha{
+    width: 70%;
+    margin-top: 20px;
+    padding: 3em;
+    text-align: justify;
+}
+.listaSec2 li{
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin: 0 15px;
+}
+.listacontenedor2{
+    margin: 10px;
+}
+/*seccion3*/
+.seccion3{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    background-color: rgba(207, 171, 211, 0.759);
+}
+.sec3Derecha{
+    width:85% ;
+}
+.sec3Izquierda{
+    width:15%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#referencia{
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 15px;
+}
+#referencia:hover{
+    text-decoration: underline; /* Subraya al pasar el mouse */
+    color: rgb(54, 59, 125);
+}
+
+/*footer*/
+.footer {
+    background-color: rgb(54, 59, 125); /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+}
+
+.footer-content {
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido */
+}
+
+.footer p {
+    margin: 10px 0; /* Margen vertical del texto */
+}
+
+.social-media {
+    list-style-type: none; /* Elimina el estilo de lista */
+    padding: 0; /* Elimina el padding */
+    margin: 0; /* Elimina el margen */
+}
+
+.social-media li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin: 0 15px; /* Espacio entre los elementos de la lista */
+}
+
+.social-media a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+.social-media a:hover {
+    text-decoration: underline; /* Subraya al pasar el mouse */
+}
+
+
+
+header {
+    background-color: rgb(54, 59, 125);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Estilos generales para el formulario en contacto.html */
+form {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 20px auto; /* Centrar el formulario */
+    padding: 20px;
+    background-color: rgba(239, 249, 249, 0.8); /* Fondo semi-transparente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+form div {
+    margin-bottom: 15px; /* Espacio entre los campos del formulario */
+}
+
+form label {
+    display: block; /* Muestra las etiquetas en línea */
+    margin-bottom: 5px; /* Espacio entre etiqueta y campo */
+}
+
+form input {
+    width: 100%; /* Ancho completo del campo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid rgb(43, 42, 42); /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+form button {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: rgb(54, 59, 125); /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+form button:hover {
+    background-color: rgb(207, 171, 211); /* Color al pasar el mouse */
+}
+
+/* Estilos para el contenedor de cartas en adopciones.html */
+#cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las cartas se ajusten en varias líneas */
+    justify-content: center; /* Centra las cartas */
+    gap: 20px; /* Espacio entre cartas */
+    padding: 20px; /* Espaciado interno */
+}
+
+.cards {
+    background-color: rgba(239, 249, 249, 0.8); /* Fondo de las cartas */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno de las cartas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: transform 0.2s; /* Transición suave */
+}
+
+.cards:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+  
